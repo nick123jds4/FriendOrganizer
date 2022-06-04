@@ -1,7 +1,7 @@
 ﻿using FriendOrganizer.UI.ViewModel;
 using System.Windows;
 
-namespace FriendOrganizer.UI
+namespace FriendOrganizer.UI.View
 {
   public partial class MainWindow : Window
   {

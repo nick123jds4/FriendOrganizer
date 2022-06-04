@@ -1,15 +1,15 @@
 ﻿using Autofac;
 using FriendOrganizer.DataAccess;
-using FriendOrganizer.UI.Data;
 using FriendOrganizer.UI.Data.Lookups;
 using FriendOrganizer.UI.Data.Repositories;
+using FriendOrganizer.UI.View;
 using FriendOrganizer.UI.View.Services;
 using FriendOrganizer.UI.ViewModel;
 using Prism.Events;
 
 namespace FriendOrganizer.UI.Startup
 {
-  public class Bootstrapper
+    public class Bootstrapper
   {
     public IContainer Bootstrap()
     {
